@@ -41,6 +41,7 @@ a{
 
 h1{
     font-size: 3rem;
+    color: rgb(109, 44, 28);
 }
 
 .text-section > p{
@@ -68,4 +69,28 @@ body > div > div.section-1 > div.image-section > img:nth-child(3){
     position: absolute;
     height: 250px;
     width: auto;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 60px;
+}
+
+.coffee-2 {
+    width: 800px;
+    border-radius: 50px;
+    float: right;
+}
+
+.text-section-2 {
+    max-width: 400px;
+    text-align: right;
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(109, 44, 28);
 }
